@@ -1,0 +1,15 @@
+/* 
+ * Lua.xcspec: Xcode file type for Lua
+ * 
+ */
+
+(
+	{
+		Type = FileType;
+		Identifier = sourcecode.lua;
+		BasedOn = sourcecode;
+		Name = "Lua file";
+		Extensions = ( lua );
+		Language = "xcode.lang.lua";
+	}
+)
