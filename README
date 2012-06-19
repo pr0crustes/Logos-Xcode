@@ -1,9 +1,8 @@
 Lua Syntax Coloring
 ===================
 
-Add Lua support but syntax coloring must be manually selected from the Editor.
-
-XCode plugins and Syntax Coloring is unfortunately is not documented :/
+XCode plugins and Syntax Coloring is not documented, unfortunately 
+syntax coloring must be manually selected from the Editor :/
 
 Authors:
 
