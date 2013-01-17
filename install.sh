@@ -84,6 +84,6 @@ rm -f AdditionalLanguages.plist
 cp "$SCRIPT_PATH/Lua.xclangspec" "$DVTFOUNDATION_PATH"
 
 # Remove any cached Xcode plugins
-rm -f /private/var/folders/*/*/*/com.apple.DeveloperTools/*/Xcode/PlugInCache.xcplugincache
+rm -rf /private/var/folders/*/*/*/com.apple.DeveloperTools/*/Xcode/PlugInCache.xcplugincache
 
 echo "Syntax coloring must be manually selected from the Editor - Syntax Coloring menu in Xcode."
