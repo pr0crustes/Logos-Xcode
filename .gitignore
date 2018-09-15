@@ -1,2 +1,4 @@
 .vscode
 *.pcy
+*.
+.DS_Store
