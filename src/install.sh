@@ -37,7 +37,7 @@ if [ ! -f $Script_Path/Logos.xclangspec ]; then
 fi
 
 
-echo "It's highly recommended that, if you are installing for the first time, to make a backup of the folder /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources"
+echo "It's highly recommended that, if you are installing for the first time, you make a backup of the folder /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources"
 while true; do
     read -p "Do you wish to continue? (Y)es, (N)o	" yn
     case $yn in
