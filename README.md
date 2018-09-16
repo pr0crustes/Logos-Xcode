@@ -16,6 +16,13 @@ Logos-Xcode brings Logos Syntax Hightlight to Xcode (tested on 9.4).
 To be honest, I hate when a script can only be run as root (security reasons), but in this case that's needed for writing to `/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources`.  
 You do not need to trust my word, since all the code is open source and I suggest everyone to read.  
   
+## Images
+![SS showing autocompletion0](imgs/SS_import.png)
+![SS showing autocompletion1](imgs/SS_hook.png)
+![SS showing autocompletion2](imgs/SS_live.png)
+![SS showing autocompletion3](imgs/SS_end.png)
+![SS showing autocompletion1](imgs/SS_c.png)
+  
 ## Disclaimer
 This code is provided `as it is`, without any `warranty`.  
 READ all the code before using it, since I am not responsible if it eventually breaks any future xcode version.  
