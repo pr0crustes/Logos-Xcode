@@ -2,3 +2,4 @@
 *.pcy
 *.
 .DS_Store
+.excluded
