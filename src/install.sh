@@ -22,7 +22,7 @@ fi
 
 # Assumes Xcode 4+.
 echo "Checking Xcode..."
-XCODE_MAJOR_VERSION=`xcodebuild -version | awk 'NR == 1 {print substr($2,1,1)}'`
+XCODE_MAJOR_VERSION=`xcodebuild -version | awk 'NR == 1 {print int($2)}'`
 if [ "$XCODE_MAJOR_VERSION" -lt "4" ]; then
 	echo "Xcode 4+ not found."
 	exit 1
