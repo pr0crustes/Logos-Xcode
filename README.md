@@ -27,8 +27,9 @@ You do not need to trust my word, since all the code is open source and I sugges
 This code is provided `as it is`, without any `warranty`.  
 READ all the code before using it, since I am not responsible if it eventually breaks any future xcode version.  
   
-## Based on the work of: (See Fork) 
+## Based on the work of: 
 * Tiago Bastos (Fork) 
 * Alex Karahalios (Install Script) 
 * Bret Victor (Syntax file) 
 * Graham Henstridge (Syntax file) 
+* This project started as a fork from https://github.com/bastos/lua-xcode-coloring
